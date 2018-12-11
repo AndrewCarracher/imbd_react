@@ -12,6 +12,7 @@ class FilmList extends Component {
       <div className = "FilmList">
         <h1>Upcoming Film Releases For Uk</h1>
         { filmNodes }
+        <h2><a href="https://www.imdb.com/calendar/?region=gb">View more upcoming releases</a></h2>
       </div>
     );
   }
